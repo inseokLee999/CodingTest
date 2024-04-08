@@ -1,0 +1,9 @@
+A=int(input())
+B=int(input())
+temp=B
+print(A*(B%10))
+B//=10
+print(A*(B%10))
+B//=10
+print(A*(B%10))
+print(A*temp)
