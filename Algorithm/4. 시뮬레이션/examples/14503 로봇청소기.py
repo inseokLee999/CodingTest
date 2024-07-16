@@ -32,7 +32,7 @@ r, c, d = map(int, input().split())
 board = list(list(map(int, input().split())) for _ in range(N))
 
 cnt = 0
-dx = [0, 1, 0, -1]
+dx = [0, 1, 0, -1]  # 북 동 남 서
 dy = [-1, 0, 1, 0]
 
 
@@ -40,30 +40,41 @@ dy = [-1, 0, 1, 0]
 def solution(r, c, d, board):
     global cnt
     while True:
-        board[r][c] = 2
-        cnt += 1
+        chk = False
+        if board[r][c] == 0:
+            board[r][c] = 2
+            cnt += 1
 
-        for i in range(4):
+        for i in (0, 3, 2, 1):  # 현재 칸의 주변 4칸 중
             nr = r + dy[(i + d) % 4]
             nc = c + dx[(i + d) % 4]
-            if 0 <= nr < N and 0 <= nc < M:
-                if board[nr][nc] != 0:
-                    if i != 3:
-                        continue
-                    elif board[r + dy[(d + 2) % 4]][c + dx[(d + 2) % 4]] != 1:
-                        r = r + dy[(d + 2) % 4]
-                        c = c + dx[(d + 2) % 4]
+            # print("nr : %d,nc : %d,d:%d,i:%d" % (nr, nc, d, i))
+            if 0 <= nr < N and 0 <= nc < M:  # board 범위 안이고
+                if board[nr][nc] != 0:  # 보드값이 0이 아니면(1 혹은 2)청소된칸 혹은 벽
+                    if i != 1:  # 끝까지 돈 경우가 아닌 경우
+                        continue  # for문 반복
+                    elif board[r - dy[d]][c - dx[d]] == 2:  # 뒤에가 벽이 아닌경우
+                        r = r - dy[d]
+                        c = c - dx[d]
+                        chk = True
+                        # print("뒤로가기!",r,c)
                         break
-                    elif board[r + dy[(d + 2) % 4]][c + dx[(d + 2) % 4]] == 1:
-                        return cnt
+                    elif board[r - dy[d]][c - dx[d]] == 1:  # 뒤가 벽인 경우
+                        # print("뒤는 벽 ")
+                        # print(r - dy[d], c - dy[d])
+
+                        return cnt  # 종료
                 elif board[nr][nc] == 0:
                     r = nr
                     c = nc
                     d = (d + i) % 4
-                    print("r : %d, c: %d, d : %d" % (r, c, d))
+                    chk = True
+                    # print("청소 ! r : %d, c: %d, d : %d" % (r, c, d))
                     break
-
+        if not chk:
+            break
     return cnt
-
-
+for b in board:
+    print(b)
+print(board)
 print(solution(r, c, d, board))
