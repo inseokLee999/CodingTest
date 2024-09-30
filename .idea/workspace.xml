@@ -5,46 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a08a4ed2-6e12-416a-b0c9-652ed6095390" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pythonProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BAEKJOON/DP/1463 1로만들기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BAEKJOON/DP/2839 설탕배달.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BAEKJOON/DP/9095 1,2,3 더하기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BAEKJOON/Dijkstra/1753.최단경로.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BAEKJOON/bFS/1926 그림.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BAEKJOON/더풀어보기 문제/10807 개수세기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BAEKJOON/더풀어보기 문제/11023 더하기 3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BAEKJOON/더풀어보기 문제/11720 숫자의합.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/6 너비우선탐색, 최단경로/6-2-1dijkstra.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/6-1-1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/6-1-2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/8 실전문제/8-1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/8 실전문제/8-10.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/8 실전문제/8-2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/8 실전문제/8-3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/8 실전문제/8-4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/8 실전문제/8-5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/8 실전문제/8-6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/8 실전문제/8-7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/8 실전문제/8-8.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/8 실전문제/8-9.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/9 기출문제/9-1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/practice/8단 변속기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/practice/A+B.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/practice/강의실 배정.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/practice/근무 시간.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/practice/금고털이.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/practice/바이러스.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/practice/염기서열 커버.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/practice/징검다리.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/practice/출퇴근길.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/기본 2/1005.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/대기업/1111.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/대학/1008.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/5. 투포인터/examples/1806 부분합.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/6. 이진탐색/examples/10816 숫자 카드 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/6. 이진탐색/examples/1920.  수 찾기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/6. 이진탐색/개념" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/7. 그리디/examples/11047 동전.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/7. 그리디/개념" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/8. DP/개념" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +74,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/inseoklee/프로그래밍/Python/pythonProject",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/CodingTest",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -127,7 +95,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-5a2391486177-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13763.11" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17890.1" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17890.1" />
       </set>
     </attachedChunks>
   </component>
@@ -143,6 +112,7 @@
       <workItem from="1706687720512" duration="43194000" />
       <workItem from="1707106443273" duration="6203000" />
       <workItem from="1707117478749" duration="168000" />
+      <workItem from="1727663219022" duration="39000" />
     </task>
     <servers />
   </component>
